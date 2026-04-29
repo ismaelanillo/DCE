@@ -1,0 +1,21 @@
+# Carpetas de compilación
+Debug/
+Release/
+bin/
+obj/
+
+# Archivos temporales de Atmel/Visual Studio
+.vs/
+*.user
+*.suo
+*.v12.suo
+*.atmelstart
+*.bak
+
+# Archivos de salida de simulación/compilador
+*.hex
+*.elf
+*.lss
+*.map
+*.o
+*.obj

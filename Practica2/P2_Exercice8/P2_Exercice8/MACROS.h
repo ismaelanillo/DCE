@@ -1,0 +1,20 @@
+/*
+ * MACROS.h
+ *
+ * Created: 02/03/2026 12:36:20
+ *  Author: DCE
+ */ 
+
+
+#ifndef MACROS_H_
+#define MACROS_H_
+
+//WRITING BITS I/0 REGISTERS
+#define SETBIT(ADDRESS,BIT)	(ADDRESS |= (1<<BIT))
+#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))
+#define TOGGLEBIT(ADDRESS,BIT) (ADDRESS ^= (1<<BIT))
+
+//READING BITS IN I/0 REGISTERS
+#define READ_PIN(ADDRESS,BIT) (ADDRESS & (1<<BIT))
+
+#endif /* MACROS_H_ */
